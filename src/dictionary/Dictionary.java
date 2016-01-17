@@ -16,6 +16,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
+@SuppressWarnings("serial")
 public class Dictionary extends JFrame {
     public static final String FILE_NAME = "src/data.csv", SEPARATOR = ";";    
     private static JFrame mainFrame;

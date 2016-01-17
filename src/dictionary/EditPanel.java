@@ -8,6 +8,10 @@ import java.util.List;
 import java.util.Map;
 import javax.swing.JOptionPane;
 
+/**
+ * Panel when editions of existing phrases are done.
+ * */
+@SuppressWarnings("serial")
 public class EditPanel extends AbstractPanel {    
     private static String oldKey = null;
     private static int index;

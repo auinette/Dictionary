@@ -23,13 +23,18 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
 
-
+/**
+ * Main panel where searching is done.
+ * You can navigate between other panels here.
+ * */
+@SuppressWarnings("serial")
 public class MainPanel extends JPanel {
     public static final int DEFAULT_NUM_COLUMNS = 15;
     private final JButton searchButton, editButton, addButton;
     private final JTextArea textArea;
     private final JTextField searchField;
-    private final JComboBox resoultBox;
+    @SuppressWarnings("rawtypes")
+	private final JComboBox resoultBox;
     private List<Definition> definitionList;
     private final Map<String, Collection<Definition>> map;
     private boolean successfulSearch = false;
@@ -38,7 +43,8 @@ public class MainPanel extends JPanel {
      * Constructor.
      * @param dMap - reference to the map with definitions.
      * */
-    public MainPanel(Map<String, Collection<Definition>> dMap) {
+    @SuppressWarnings("rawtypes")
+	public MainPanel(Map<String, Collection<Definition>> dMap) {
         setLayout(new BorderLayout());
         JPanel northPanel = new JPanel(new FlowLayout());
         map = dMap;
@@ -95,7 +101,8 @@ public class MainPanel extends JPanel {
         add (centerPanel, BorderLayout.CENTER);
     }   
 
-    private void initSampleDefinitionList() {
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	private void initSampleDefinitionList() {
         definitionList = new ArrayList<>();        
         for (int i=0; i<15; i++)
             definitionList.add(new Definition("Phrase "+(i+1), "sample definition text "+(i+1)));        
@@ -149,7 +156,8 @@ public class MainPanel extends JPanel {
      * If search for the record was successful it updates all visible records
      * @param defs - collection of definitions that have been found.
      * */
-    private void updateAll(Collection<Definition> defs) {
+    @SuppressWarnings({ "rawtypes", "unchecked" })
+	private void updateAll(Collection<Definition> defs) {
         textArea.setText("");
         List<Definition> list = new ArrayList<>();
         for (Definition d : defs) {

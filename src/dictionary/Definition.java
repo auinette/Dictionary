@@ -2,6 +2,9 @@
 package dictionary;
 
 
+/**
+ * Class that contains information about data stored in the Dictionary.
+ * */
 public class Definition {
     private String phrase;
     private String text;
@@ -28,6 +31,11 @@ public class Definition {
         phrase = p;
     } 
     
+    /**
+     * Overridden method.
+     * @return String representation of the phrase and text, separated with ';'.
+     * This is used for properly formatted .csv file text.
+     * */
     @Override
     public String toString() {
         return phrase + Dictionary.SEPARATOR + text;

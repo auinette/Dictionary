@@ -7,6 +7,10 @@ import java.util.List;
 import java.util.Map;
 import javax.swing.JOptionPane;
 
+/**
+ * Panel where new records are added.
+ * */
+@SuppressWarnings("serial")
 public class NewRecordPanel extends AbstractPanel {
     private final MainPanel mainPanel;
     

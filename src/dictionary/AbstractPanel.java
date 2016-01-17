@@ -15,6 +15,10 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+/**
+ * Abstract model of the panel. It contains basic buttons, text field and text area.
+ * */
+@SuppressWarnings("serial")
 public abstract class AbstractPanel extends JPanel {
     protected Map<String, Collection<Definition>> map;
     private final JButton backButton, confirmButton;
