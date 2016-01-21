@@ -1,3 +1,23 @@
-Test 1;Test 1
-test 1;Nowa definicja...dsadada
-Ddsaaaewa;Nowa definicja..fsdfsdf.
+fon;jednostka poziomu głośności dźwięku
+częstotliowść;ilość drgań następujących w ciągu sekundy, wyrażona w Hz
+sygnał;nosnik informacji, abstrakcyjny model dowolnej wielkości zmieniającej się w czasie
+poziom ciśnienia akustycznego;miara głośności dźwięku wyrażona w dB; stosunek średniego kwadratu ciśnienia akustycznego do ciśnienia odniesienia
+dźwięk;wrażenie słuchowe, spowodowane falą akustyczną rozchodzącą się w ośrodku sprężystym
+składowa stała;wartość średnia sygnału
+składowa zmienna;różnica pomiędzy sygnałem, a jego składową stałą
+częstotliwość podstawowa;najniższy ton dźwięku szeregu harmonicznego, czyli fala o najmniejszej częstotliwości w szeregu harmonicznym
+współczynnik pochłaniania dźwięku;parametr służący do opisu właściwości dźwiękochłonnych materiału, będący wynikiem różnicy energii fali pochłoniętej przez materiał, do energii fali nań padającej
+fala poprzeczna;fala, w której kierunek drgań cząstek ośrodka jest prostopadły do kierunku rozchodzenia się fali
+fala podłużna;fala, której kierunek rozchodzenia się jest zgodny z kierunkiem drgania cząsteczek ośrodka
+amplituda;największe wychylenie z położenia równowagi w ruchu drgającym i w ruchu falowym
+widmo sygnału;przedstawienie sygnału w dziedzinie częstotliwości za pomocą transformacji Fouriera
+modulacja;samorzutna bądź celowa zmiana parametrów sygnału
+obwiednia sygnału;chwilowa wartość amplitudy sygnału zmieniająca się wolniej niż, sam sygnał
+dudnienie;okresowe zmiany amplitudy drgania wypadkowego powstałego przy złożeniu dwóch drgań o zbliżonych częstotliwościach
+rezonans;zjawisko występujące dla drgań wymuszonych, objawiające się wzrostem amplitudy drgań dla wybranych częstotliwości
+filtr;fragmentu obwodu elektrycznego/elektronicznego odpowiadający za przepuszczanie lub blokowanie sygnałów w określonym zakresie częsotliwości lub zawierające wybrane harmoniczne
+szum;dźwięk, którego widmo jest w znacznym zakresie zrównoważone, tzn nie występują w nim maxima
+szum biały;rodzaj szumu akustycznego o całkowicie płaskim widmie
+szum różowy;sygnał lub proces, którego widmo częstotliwościowe, a także widma gęstości mocy są odwrotnie proporcjonalne do częstotliwości (spadek 3 dB na oktawę)
+składowa harmoniczna;część składowa dźwieku o przebiegu sinusoidalnym i częstotliwości n=fk, gdzie f - częstotliwość podstawowa, n - liczba całkowita dodatnia
+szereg Fouriera;szereg pozwalający rozłożyc funcję okresową na sumę funkcji trygonometrycznych
